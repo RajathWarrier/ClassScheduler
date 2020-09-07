@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Tasks]
+(
+	CourseID VARCHAR(10) NOT NULL PRIMARY KEY,
+	DueDate DATETIME2,
+	Title NVARCHAR(100) NOT NULL,
+	[Description] TEXT
+)
